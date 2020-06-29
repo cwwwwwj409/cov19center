@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+		margin: 0;
+		padding: 0; 
+		background-color: #42455a;
+	}
+	
+	h1,h2,h3,h4,h5,h6,a,p,span{
+		font-family: "GenSekiGothic TW TTF Regular";
+		
+	}
+	
+	.container{
+		margin:0 auto;
+		height: 100vh;
+		background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url( ../imgs/cover-picture.jpg);
+		background-position: center;
+		background-size: cover;
+		overflow-x: hidden;
+		position: relative;
+		
+	}
+	
+	.menu{
+		display:flex;
+		padding: 40px 120px;
+	}
+	
+	.nav-logo img{
+		width: 200px;
+	}
+
+	.menu ul{
+		display: inline;
+		margin:50px;
+	}
+	
+	.menu ul li{
+		display: inline-block;
+		list-style: none;
+		margin: 0 20px;
+		color:#255784;
+		cursor: pointer;
+	}
+	
+	.menu ul li a{
+		text-decoration: none;
+		color: #fff;
+	}
+	
+	.menu ul .nav-item::after{
+		content: "";
+		width: 0;
+		height: 2px;
+		background-color: #2196f3;
+		display: block;
+		margin-top: 5px;
+		transition: 0.5s;
+	}
+	
+	.menu ul .nav-item:hover::after{
+		width:100%;
+	}
+
+	#active a{
+		color: #2196f3;
+	}
+	
+	.logo img{
+		width: 50px;
+		padding: 50px 
+		
+	}
+	
+	.signup-btn{
+		top: 70px;
+		right: 80px;
+		position: absolute;
+		text-decoration: none;
+		color: #fff;
+	}
+	
+	.signup-btn a{
+		position: relative;
+	  	display: inline-block;
+	  	padding:10px;
+	  	color: #2196f3;
+	  	letter-spacing: 4px;
+	  	text-decoration: none;
+	  	font-size: 20px;
+	  	overflow: hidden;
+	  	transition: 0.2s;
+		border:1px solid #2196f333;
+	}
+	
+	.signup-btn a:hover{
+		color: #fff;
+		background: #2196f3;
+		box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+	}
+	
+	.signup-btn span{
+		display: block;
+		padding: 8px 20px;
+	}
+	
+	.banner{
+		width: 80%;
+		height: 150px;
+		top: 25%;
+		left: 130px;
+		position: absolute;
+		color: #fff;
+	}
+
+	.app-text{
+		width: 50%;
+		float: left;
+	}
+	
+	.app-text h1{
+		font-size: 43px;
+		width: 640px;
+		position: relative;
+		margin-left: 40px;
+	}
+
+	.app-text h2{
+		font-size: 30px;
+		width: 640px;
+		position: relative;
+		margin-left: 40px;
+	}
+	
+	.app-text p{
+		width: 650px;
+		font-size: 15px;
+		margin: 30px 0 30px 40px;
+		line-height: 25px;
+		color: #919191;
+	}
+	
+	.app-picture{
+		width: 50%;
+		float: right;
+	}
+	
+	.app-picture img{
+		width: 80%;
+		margin-top: -20px;
+		padding-left: 150px;
+	}
+	
+	.cta-btn a{
+		margin-left: 10px;
+	  	position: relative;
+	  	display: inline-block;
+	  	padding: 15px 30px;
+	  	color: #2196f3;
+	  	letter-spacing: 4px;
+	  	text-decoration: none;
+	  	font-size: 24px;
+	  	overflow: hidden;
+	  	transition: 0.2s;
+		border:1px solid #2196f333;
+	}
+	
+	.cta-btn a:hover{
+		color: #fff;
+		background: #2196f3;
+		box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+	}
+	
+	.contents{
+		flex-basis: 50%;
+	}
+	
+	.contents h3{
+		color: #fff;
+		margin-left: 10px;
+	}
+	
+	
+	.contents a{
+		text-decoration: none;
+		color: #fff;
+		font-size: 13px;
+		margin: 0 10px;
+	}
+	
+	.contents p{
+		text-align: right;
+		margin-top: 10px;
+	}
+
+footer{
+	position: absolute;
+	width: 100%;
+	bottom: 5px;
+	color:#fff;
+		
+}
+
+footer h5{
+	text-align: center;
+}

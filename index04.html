@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>COV19情報局 各國措施</title>
+	
+<link rel="stylesheet" href="css/style.css">
+<style type="text/css">
+	
+	.container3{
+		margin: 0.auto;
+		height: 200vh;
+		background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(imgs/container3_img.jpg);
+		background-position: center;
+		background-size: cover;
+		overflow-x: hidden;
+		position: relative;
+	}
+	
+	.content{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin:0 150px;
+	}
+	
+	.card{
+		position: relative;
+		width: 30%;
+		margin-top: 50px;
+		height: 700px;
+		background-color:rgba(255,255,255,0.84);
+		box-shadow: 0 30px 30px rgba(0,0,0,.5);
+		float: left;
+	}
+	
+	.card .img_container{
+		width: 100%;
+		padding-top: 300px;
+		overflow: hidden;
+		position: relative;
+	}
+	
+	.card .img_container img{
+		width: 600px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+
+	.card-intro{
+		margin: 25px;
+		height: 250px;
+		
+	}
+	
+	.card-intro p{
+		text-align: justify;
+		line-height: 1.3;
+	}
+	
+	#card1_btn{
+		margin-left: 15px;
+	}
+	
+	#card2_btn{
+		margin-left: 15px;
+	}
+	
+	#card3_btn{
+		margin-left: 15px;
+	}
+	
+	#card4_btn{
+		margin-left: 15px;
+	}
+	
+	#card5_btn{
+		margin-left: 15px;
+	}
+	
+	#card6_btn{
+		margin-left: 15px;
+	}
+	
+	
+	
+	
+	</style>
+</head>
+
+<body>
+	<div class="container3">
+		<div class="menu">
+			<div class="nav-logo">
+				<img src="imgs/logo.png" alt="">
+			</div>
+			<ul>
+				<li class="nav-item"><a href="index.html">首頁</a></li>
+				<li class="nav-item"><a href="index02.html">基本介紹</a></li>
+				<li class="nav-item"><a href="index03.html">最新消息</a></li>
+				<li class="nav-item" id="active"><a href="index04.html">各囯防疫</a></li>
+				<li class="nav-item"><a href="index05.html">聯絡救援</a></li>
+			</ul>
+			
+			<div class="signup-btn"><a href="#"><span>登入/注冊</span></a></div>
+		</div>
+		
+		<div class="content">
+			<div class="card">
+				<div class="img_container">
+				<img src="imgs/cards_img1.jpg" alt=""></div>
+				<div class="card-intro">
+					<h1>台灣</h1>
+					<p>台灣的病例也從一開始境外移入個案以中國、港澳為主，轉變到近期主要來自歐美返台留學生、旅遊團，確診症狀、臨床表現都有所不同。因應疫情變化，中央流行疫情指揮中心政策不斷更新，有些甚至翻轉了前期防疫措施，例如，到底口罩能不能用電鍋乾蒸後重複使用？</p>
+				</div>
+				
+				<div class="cta-btn" id="card1_btn">
+					<a href="#">瞭解更多</a>
+				</div>
+			</div>
+			
+			<div class="card">
+				<div class="img_container">
+				<img src="imgs/cards_img2.jpg" alt=""></div>
+				<div class="card-intro">
+					<h1>中國</h1>
+					<p>在講起這次中國防疫，對中國政府「隱瞞消息，導致各國輕忽病情」的抨擊至今仍熱烈。不論藍綠政治立場的台灣媒體，以及台灣政府本身，都將「WHO失職」以及「台灣一開始就未相信中國防疫信息」歸結為「台灣防疫成功」之因。跳出台灣，西方主流媒體在分析防疫成功的案例時，韓國、台灣也被列為「民主防疫典範」。</p>
+				</div>
+				
+				<div class="cta-btn" id="card2_btn">
+					<a href="#">瞭解更多</a>
+				</div>
+			</div>
+			
+			<div class="card">
+				<div class="img_container">
+				<img src="imgs/cards_img3.jpg" alt=""></div>
+				<div class="card-intro">
+					<h1>馬來西亞</h1>
+					<p>馬來西亞今天新增51起武漢肺炎確診病例，累計達5742例，死亡病例增加2起至98例。基於疫情仍未平復，馬來西亞決定國會只在5月18日召開一天會議，創馬國最短國會召開期。馬來西亞衛生總監諾希山透露，韓國的快篩試劑下週將會抵達馬來西亞，預料會提高目前的確診靈敏度與效率。</p>
+				</div>
+				
+				<div class="cta-btn" id="card3_btn">
+					<a href="#">瞭解更多</a>
+				</div>
+			</div>
+			
+			<div class="card">
+				<div class="img_container">
+				<img src="imgs/cards_img4.jpg" alt=""></div>
+				<div class="card-intro">
+					<h1>新加坡</h1>
+					<p>新加坡近期激增的病例主要發生在移工區，這點和韓國有些類似，韓國疫情大量爆發與大邱新天地教會有關。新加坡人口只有500多萬，卻有上百萬的外來移工，從事醫療照護、保安、廢棄物處理及基礎建設等工作。</p>
+				</div>
+				
+				<div class="cta-btn" id="card4_btn">
+					<a href="#">瞭解更多</a>
+				</div>
+			</div>
+			
+			<div class="card">
+				<div class="img_container">
+				<img src="imgs/cards_img5.jpg" alt=""></div>
+				<div class="card-intro">
+					<h1>美國</h1>
+					<p>美國是目前全球COVID-19（簡稱武漢肺炎）的重災區，包括紐約在內的地區都爆發疫情。在疫情嚴峻時刻，為期15天的防疫隔離令，原本預定在週一（30日）解除，不過在前一天，川普在白宮草坪召開記者會，宣布隔離令將再延長1個月，至4月30日為止。</p>
+				</div>
+				
+				<div class="cta-btn" id="card5_btn">
+					<a href="#">瞭解更多</a>
+				</div>
+			</div>
+			
+			<div class="card">
+				<div class="img_container">
+				<img src="imgs/cards_img6.jpg" alt=""></div>
+				<div class="card-intro">
+					<h1>英國</h1>
+					<p>武漢肺炎在歐洲持續延燒，英國疫情嚴峻。已在台灣生活三年的英國人Jack受邀拍影片分享對台灣防疫舉措的看法，曝光英國防疫實況，大讚台灣政策很有感。Jack表示，英國和美國「有各種公衛或世衛的委員或席次」，但在防疫上卻輕忽了，認同台灣防疫行動令民眾有感，提到總統蔡英文會在官方臉書上，分享新政策和紓困預算，十分公開透明。</p>
+				</div>
+				
+				<div class="cta-btn" id="card6_btn">
+					<a href="#">瞭解更多</a>
+				</div>
+			</div>
+			
+		</div>
+		
+		<footer><h5>Copyright©cov19center.All Right Reserved</h5></footer>
+		
+		
+		
+	</div>
+</body>
+</html>

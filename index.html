@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>COV-19 情報局</title>
+
+<link rel="stylesheet" href="css/style.css">
+<style type="text/css">
+	
+	#learnmore{
+		float: left;
+		margin: 0 10px 0 30px;
+	}
+	
+	.inner{
+		float: right;
+		width: 40%;
+	}
+	
+	.col{
+		margin: 30px;
+		padding-top: 20px;
+		text-align: center;
+		border: 3px solid #2196f333;
+	}
+	
+	#deaths{
+		color: #AA0002;
+	}
+	
+</style>
+
+	
+</head>
+
+<body>
+	<div class="container">
+		<div class="menu">
+			<div class="nav-logo">
+				<img src="imgs/logo.png" alt="">
+			</div>
+			<ul>
+				<li class="nav-item" id="active"><a href="index.html">首頁</a></li>
+				<li class="nav-item"><a href="index02.html">基本介紹</a></li>
+				<li class="nav-item"><a href="index03.html">最新消息</a></li>
+				<li class="nav-item"><a href="index04.html">各囯防疫</a></li>
+				<li class="nav-item"><a href="index05.html">聯絡救援</a></li>
+			</ul>
+			
+			<div class="signup-btn"><a href="#"><span>登入/注冊</span></a></div>
+		</div>
+
+		<div class="banner">
+			<div class="app-text">
+				<h1>懷疑自己中標了嗎？</h1>
+				<p>在2019年至2020年间由严重急性呼吸系统综合症冠状病毒2型（SARS-CoV-2）所引发的全球大流行疫情。疫情最初在2019年12月于中华人民共和国湖北省武汉市开始爆发，随后在2020年初迅速扩散至全球多国，逐渐变成一场全球性大瘟疫，是全球自第二次世界大战以来面临的最严峻危机。截至2020年4月26日，全球已有220多个国家和地区累计报告超过290万名确诊病例，超过20万名患者死亡。
+				</p>
+				
+				<div class="cta-btn" id="learnmore">
+					<a href="index02.html">瞭解更多</a>
+				</div>
+				
+				<div class="cta-btn" id="contactus">
+					<a href="index05.html">聯絡我們</a>
+				</div>
+			</div>
+			
+			<div class="num">
+				<div class="inner">
+					<div class="col">
+						<h1>全球確診人數</h1>
+						<div class="counter"><h1>3,731,085</h1></div>
+					</div>
+					
+					<div class="col">
+						<h1>全球死亡人數</h1>
+						<div class="counter" id="deaths"><h1>258,067</h1></div>
+					</div>
+					
+					<div class="col">
+						<h1>台灣確診數</h1>
+						<div class="counter"><h1>438</h1></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer><h5>Copyright©cov19center.All Right Reserved</h5></footer>
+	</div>
+	
+	
+	
+    <script src="jquery.counterup.min.js"></script>
+	
+	<script>
+      jQuery(document).ready(function($))
+	  {
+		$('.counter').counterUp({
+			delay: 10,
+			time: 1000
+		});
+			};
+    </script>
+	
+
+</body>
+</html>

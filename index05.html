@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>COV19情報局 聯絡救援</title>
+<link rel="stylesheet" href="css/style.css">
+<style type="text/css">
+	
+	.container4{
+		margin: 0 auto;
+		height: 100vh;
+		background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(imgs/container4_img.jpeg);
+		background-position: center;
+		background-size: cover;
+		overflow-x: hidden;
+		position: relative;
+	}
+	
+	.form{
+		position: absolute;
+		margin-left: 40px;
+	}
+	
+	input{
+		float: left;
+		width: 200px;
+		height:30px;
+		margin: 20px 0;
+		background-color:transparent;
+		border: none;
+		border-bottom: 2px solid #2196f3;
+	}
+	
+	input[type=text]{
+		color: #ffffff;
+		font-family: 'GenSekiGothic TW TTF';
+		font-size: 20px;
+	}
+	
+	.email{
+		width: 350px;
+		margin-left: 10px;
+	}
+	
+	.number{
+		margin-left: 10px;
+	}
+	.note{
+		width: 50%;
+	}
+	
+	
+	::-webkit-input-placeholder{
+		font-family: 'GenSekiGothic TW TTF';
+		font-size: 20px;
+		color: rgba(120,120,120,);
+	}
+	
+	#send{
+		position: absolute;
+		margin-top: 200px;
+		margin-left: 25px;
+		
+	}
+	
+	
+	
+
+</style>
+</head>
+
+<body>
+	<div class="container4">
+		<div class="menu">
+			<div class="nav-logo">
+				<img src="imgs/logo.png" alt="">
+			</div>
+			<ul>
+				<li class="nav-item"><a href="index.html">首頁</a></li>
+				<li class="nav-item"><a href="index02.html">基本介紹</a></li>
+				<li class="nav-item"><a href="index03.html">最新消息</a></li>
+				<li class="nav-item"><a href="index04.html">各囯防疫</a></li>
+				<li class="nav-item" id="active"><a href="index05.html">聯絡救援</a></li>
+			</ul>
+			
+			<div class="signup-btn"><a href="#"><span>登入/注冊</span></a></div>
+		</div>
+		
+		<div class="banner" id="form">
+			<div class="app-text">
+				<h1>聯絡我們</h1>
+				<p>我們的特殊工作人員將會與您取得聯係，並根據您的狀況采取相關行動。</p>
+				<div class="form">
+					<form>
+						<input type="text" class="name" placeholder="姓名">
+						<input type="text" class="email" placeholder="電子信箱">
+						<input type="text" class="number" placeholder="聯絡號碼">
+						<br><input type="text" class="note" placeholder="備注">
+					</form>
+				</div>
+				
+				<div class="cta-btn" id="send">
+					<a href="#">確認送出</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer><h5>Copyright©cov19center.All Right Reserved</h5></footer>
+</body>
+</html>
